@@ -1,4 +1,4 @@
-# Product Structured Data Notes (WooCommerce)
+# Schema Implementation Notes (WooCommerce)
 
 Structured data does not improve rankings by itself. What it does is let a search engine read your product details with less guessing, which is how you become eligible for rich results such as price, availability and review stars. This file is my working note on getting it right on WooCommerce stores without overreaching.
 
