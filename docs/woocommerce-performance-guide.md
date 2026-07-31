@@ -1,4 +1,4 @@
-# WooCommerce Performance Basics
+# WooCommerce Performance Guide
 
 Speed work on a WooCommerce store fails for the same reason most SEO work fails: people change many things at once and then cannot tell what helped. This guide is the order I follow, written for store owners and marketers rather than developers.
 
