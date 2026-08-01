@@ -14,7 +14,7 @@ Writing the process down once makes it repeatable, reviewable, and possible to h
 
 If you have never audited this store before, work in this order:
 
-1. Read [docs/technical-seo-notes.md](docs/technical-seo-notes.md) and count your URLs. If the store generates thousands of URLs you did not intend, fix that before anything else.
+1. Read [docs/technical-seo-notes.md](docs/technical-seo-notes.md) and count your URLs. If the store generates thousands of URLs you did not intend, fix that before anything else. Then use [docs/faceted-navigation-decision-framework.md](docs/faceted-navigation-decision-framework.md) to decide what happens to each of them.
 2. Run [checklists/product-page-seo-checklist.md](checklists/product-page-seo-checklist.md) on your three best-selling products.
 3. Set up measurement properly using [resources/measurement-setup.md](resources/measurement-setup.md), so the rest of your work can be judged.
 4. Then pick whichever guide matches your biggest problem.
@@ -26,6 +26,7 @@ If you are launching or replatforming, go straight to [checklists/store-launch-s
 ### docs/ — the reasoning
 
 - [technical-seo-notes.md](docs/technical-seo-notes.md) — crawling, indexation, canonicals, redirects, rendering, and the audit order I follow.
+- [faceted-navigation-decision-framework.md](docs/faceted-navigation-decision-framework.md) — deciding which filter, sort and parameter URLs should be indexable, and which mechanism to use for each.
 - [woocommerce-performance-guide.md](docs/woocommerce-performance-guide.md) — what is actually slow on a WooCommerce store, and the order to fix it in.
 - [internal-linking-guide.md](docs/internal-linking-guide.md) — structure, anchor text, orphan pages, and a monthly routine.
 - [image-optimization-guide.md](docs/image-optimization-guide.md) — sizing, compression, alt text and loading behaviour for large catalogues.
@@ -69,7 +70,7 @@ You do not need to write code to use any of it.
 
 ## How this repository is maintained
 
-Files are added when there is something tested and worth writing down, not on a schedule. Existing files are corrected when a platform or a search engine changes behaviour. The commit history is the changelog.
+Files are added when there is something tested and worth writing down, not on a schedule. What is planned next, and why, is in [ROADMAP.md](ROADMAP.md). Existing files are corrected when a platform or a search engine changes behaviour. The commit history is the changelog.
 
 ## Contributing
 
