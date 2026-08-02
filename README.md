@@ -19,6 +19,8 @@ If you have never audited this store before, work in this order:
 3. Set up measurement properly using [resources/measurement-setup.md](resources/measurement-setup.md), so the rest of your work can be judged.
 4. Then pick whichever guide matches your biggest problem.
 
+If the categories themselves were never designed, and on most stores they were not, read [docs/category-and-catalogue-architecture.md](docs/category-and-catalogue-architecture.md) before the framework above. Which filters deserve a page depends on knowing which categories should exist and why.
+
 If you are launching or replatforming, go straight to [checklists/store-launch-seo-checklist.md](checklists/store-launch-seo-checklist.md).
 
 Before you delete or bulk-redirect anything that has stopped selling, read [docs/product-lifecycle-seo.md](docs/product-lifecycle-seo.md). It is the decision most stores get wrong once and cannot easily undo.
@@ -29,6 +31,7 @@ Before you delete or bulk-redirect anything that has stopped selling, read [docs
 
 - [technical-seo-notes.md](docs/technical-seo-notes.md) — crawling, indexation, canonicals, redirects, rendering, and the audit order I follow.
 - [faceted-navigation-decision-framework.md](docs/faceted-navigation-decision-framework.md) — deciding which filter, sort and parameter URLs should be indexable, and which mechanism to use for each.
+- [category-and-catalogue-architecture.md](docs/category-and-catalogue-architecture.md) — how many categories should exist, how deep they should nest, what belongs in a tag or an attribute instead, and how to change a structure that is already wrong.
 - [product-lifecycle-seo.md](docs/product-lifecycle-seo.md) — what to do with a product when it goes out of stock, is discontinued or only sells for part of the year: keep, redirect or remove.
 - [woocommerce-performance-guide.md](docs/woocommerce-performance-guide.md) — what is actually slow on a WooCommerce store, and the order to fix it in.
 - [internal-linking-guide.md](docs/internal-linking-guide.md) — structure, anchor text, orphan pages, and a monthly routine.
