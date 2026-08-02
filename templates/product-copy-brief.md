@@ -32,6 +32,8 @@ Copy this file, rename it after the product, and fill it in. Keep the finished b
 - What the current top results give the searcher, and what they leave out:
 - Do you already have another page competing for this query? If yes, which one wins:
 
+If either of those two questions is hard to answer, stop and work through [../docs/search-intent-and-query-mapping.md](../docs/search-intent-and-query-mapping.md) first. It decides which page should own a query and how to tell when two of yours are competing, and the brief is easier to fill in once that is settled.
+
 ## 5. Page structure plan
 
 - H1:
