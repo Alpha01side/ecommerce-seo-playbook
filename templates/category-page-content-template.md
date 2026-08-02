@@ -4,6 +4,8 @@ Category pages are the most undervalued pages in most stores. They usually attra
 
 This template is for writing a category page that helps someone choose.
 
+Whether the category should exist at all, how deep it should sit and what belongs in a tag or an attribute instead is a separate decision, made in [category-and-catalogue-architecture.md](../docs/category-and-catalogue-architecture.md) before anybody writes a word.
+
 ## What a good category page does
 
 It helps a visitor narrow down. That is the whole job. Someone arriving on "waterproof walking boots" does not yet know which pair they want; they want to understand the choice. If your page answers that, the customer goes deeper into the store instead of back to the results.
