@@ -8,7 +8,7 @@ Plain definitions of the terms used across this repository, written for someone 
 
 **Canonical tag.** A line in the page code saying "this content's preferred address is X". It is a hint, not a command, and it is ignored when the two pages are clearly different. Useful for genuine duplicates, useless as a substitute for fixing URL structure.
 
-**Cannibalisation.** Two or more of your own pages competing for the same search. Usually shows up as both pages ranking poorly and swapping positions. The fix is to merge them or to make each one clearly about something different.
+**Cannibalisation.** Two or more of your own pages competing for the same search. Usually shows up as both pages ranking poorly and swapping positions. The fix is to merge them or to make each one clearly about something different; [../docs/search-intent-and-query-mapping.md](../docs/search-intent-and-query-mapping.md) sets out how to confirm it is happening and which of the two should keep the query.
 
 **Category page.** A page listing products of a type. Often your highest-value page for broad search demand, and often the one with the least written content.
 
@@ -38,11 +38,15 @@ Plain definitions of the terms used across this repository, written for someone 
 
 **Pagination.** Splitting a long list across numbered pages. Should be crawlable so products are discoverable, but is not something you promote.
 
+**Query.** What somebody actually typed. Distinct from a keyword, which is a term you have decided to target. Search Console reports queries; your plan contains keywords, and the difference between the two lists is usually where the work is.
+
 **Redirect (301).** A permanent instruction that a URL has moved. Should point to the closest equivalent page, not the home page, and should not chain through several hops.
 
 **Rich result.** An enhanced search listing showing extra detail such as price or availability, made possible by structured data. Eligibility is not a guarantee, and inaccurate markup is the fastest way to lose it.
 
 **Robots.txt.** A file telling crawlers which paths not to fetch. It controls crawling, not indexing, and it is not a security measure. Anything genuinely private needs authentication.
+
+**Search intent.** What the person searching is trying to accomplish, as opposed to the words they used. On a store it is usually one of four things: get a specific item, choose within a type, understand something first, or resolve a doubt. Commonly misused as a synonym for keyword, which loses the only part that decides which page should answer.
 
 **Sitemap.** A file listing the URLs you believe deserve indexing. Most useful as a diagnostic when it is split by type and kept free of redirects and errors.
 
