@@ -2,19 +2,15 @@
 
 What is planned for this repository, in order, and why. Dates are deliberately absent: files are added when the material has been used on a real store, not to keep to a schedule.
 
-Last reviewed: 1 August 2026.
+Last reviewed: 2 August 2026.
 
 ## Where the library stands today
 
-Seven guides in docs/, three checklists, three templates, two worked examples and two reference files. Coverage is strongest on product pages, technical indexation and print-on-demand duplication. It is weakest in two places: what happens to a product after it stops selling, and how a catalogue should be structured before any on-page work begins. The next three items address exactly that.
+Eight guides in docs/, three checklists, three templates, two worked examples and two reference files. Coverage is strongest on product pages, technical indexation, filter URLs, the product lifecycle and print-on-demand duplication. The weakest area left is catalogue structure: how many category pages should exist, how deep they should nest, and how they should be named. The next two items address that, in that order.
 
-## Next document: product lifecycle, out of stock, discontinued and seasonal products
+## Delivered since the last review
 
-Why this one first. It is currently a single paragraph inside [docs/technical-seo-notes.md](docs/technical-seo-notes.md), and it is the decision store owners get wrong most often and most expensively. Every store faces it monthly and print-on-demand catalogues face it weekly. The wrong answer throws away rankings and links that were already earned, which is worse than never having had them.
-
-It also connects four files that already exist: redirects in the technical notes, availability in the schema notes, related products in the internal linking guide, and thin content in the print-on-demand guide. It will tie the library together rather than sit beside it.
-
-Planned scope: keep, noindex, redirect or return 404, as a decision table with the reasoning for each; products that will come back; back-order and pre-order availability; what to do with accumulated reviews and inbound links; seasonal collections that repeat every year; and how to record the decision so it can be reversed by somebody else.
+- [docs/product-lifecycle-seo.md](docs/product-lifecycle-seo.md) — out of stock, discontinued and seasonal products, as a decision table with the reasoning for each row, plus availability values, what happens to reviews and inbound links, the WooCommerce and WordPress behaviour that trips people up, a decision log and a quarterly pass. It replaces a two-sentence summary in [docs/technical-seo-notes.md](docs/technical-seo-notes.md), which now links to it.
 
 ## Next checklist: filter and parameter audit
 
