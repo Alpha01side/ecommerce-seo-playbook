@@ -21,12 +21,15 @@ If you have never audited this store before, work in this order:
 
 If you are launching or replatforming, go straight to [checklists/store-launch-seo-checklist.md](checklists/store-launch-seo-checklist.md).
 
+Before you delete or bulk-redirect anything that has stopped selling, read [docs/product-lifecycle-seo.md](docs/product-lifecycle-seo.md). It is the decision most stores get wrong once and cannot easily undo.
+
 ## What is in here
 
 ### docs/ — the reasoning
 
 - [technical-seo-notes.md](docs/technical-seo-notes.md) — crawling, indexation, canonicals, redirects, rendering, and the audit order I follow.
 - [faceted-navigation-decision-framework.md](docs/faceted-navigation-decision-framework.md) — deciding which filter, sort and parameter URLs should be indexable, and which mechanism to use for each.
+- [product-lifecycle-seo.md](docs/product-lifecycle-seo.md) — what to do with a product when it goes out of stock, is discontinued or only sells for part of the year: keep, redirect or remove.
 - [woocommerce-performance-guide.md](docs/woocommerce-performance-guide.md) — what is actually slow on a WooCommerce store, and the order to fix it in.
 - [internal-linking-guide.md](docs/internal-linking-guide.md) — structure, anchor text, orphan pages, and a monthly routine.
 - [image-optimization-guide.md](docs/image-optimization-guide.md) — sizing, compression, alt text and loading behaviour for large catalogues.
