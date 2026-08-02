@@ -2,6 +2,8 @@
 
 [technical-seo-notes.md](technical-seo-notes.md) states the rule I use for indexation: a URL earns indexation if someone could plausibly search for exactly what it shows, and if it offers something the parent page does not. It also says to decide the policy and write it down before implementing anything. This file is how I write it down.
 
+It assumes the catalogue structure is already settled. If it is not, or if nobody can say why a given category exists, start with [category-and-catalogue-architecture.md](category-and-catalogue-architecture.md) instead: which filters deserve a page depends on which categories exist and why.
+
 Filters are the largest single source of accidental URLs on a store, and the decision about them is usually made by whoever installed the filter plugin rather than by anyone who thought about it. The framework below produces one short table per store: every facet, the decision, the mechanism, and the date it was last reviewed. Once that table exists, the implementation is mechanical.
 
 ## Step 1: Count what the store can generate
@@ -144,6 +146,7 @@ Search engine handling of parameters and faceted navigation changes, and so does
 
 ## Related files
 
+- [category-and-catalogue-architecture.md](category-and-catalogue-architecture.md) for the decision that comes before this one: how many categories should exist, how deep they nest, and what belongs in a tag or an attribute instead.
 - [technical-seo-notes.md](technical-seo-notes.md) for the indexation rule and the audit order this sits inside.
 - [internal-linking-guide.md](internal-linking-guide.md) for how the surviving pages should be linked.
 - [print-on-demand-catalogue-seo.md](print-on-demand-catalogue-seo.md) for the variation and duplication problems specific to print-on-demand catalogues.
