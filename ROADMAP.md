@@ -6,29 +6,32 @@ Last reviewed: 2 August 2026.
 
 ## Where the library stands today
 
-Nine guides in docs/, three checklists, three templates, two worked examples and two reference files. Coverage is strongest on product pages, technical indexation, filter URLs, catalogue structure, the product lifecycle and print-on-demand duplication. The gap named at the last review, how many category pages should exist and how deep they should nest, is closed by the architecture guide below. Two things are still missing: the procedural half of the filter work, and a method for deciding which page answers which query now that the structure is settled.
+Ten guides in docs/, three checklists, three templates, two worked examples and two reference files. Coverage is strongest on product pages, technical indexation, filter URLs, catalogue structure, the product lifecycle, print-on-demand duplication and, since this review, what each page is for. Both gaps named at the last review are now closed: which categories should exist, and which query each page is meant to answer. What the library is short of now is demonstration rather than further explanation.
 
 ## Delivered since the last review
 
+- [docs/search-intent-and-query-mapping.md](docs/search-intent-and-query-mapping.md) — what each page is for. Reading what a searcher is trying to accomplish, the four gates a query has to pass before anything is built for it, which of six page types should own it, how to decide ownership when two could, how to diagnose and fix two of your own pages competing, and when the honest answer is that no page should exist. It supplies the demand test that the architecture guide and the filter framework both invoke without explaining. Verified against Google Search Central, WooCommerce and schema.org documentation, all linked in the file. Planned here as "mapping queries to pages" and broadened, because the mapping is worthless without the intent reading that comes before it.
 - [docs/category-and-catalogue-architecture.md](docs/category-and-catalogue-architecture.md) — the four questions a category has to pass before it earns a URL, sizing and depth by catalogue size, the split between categories, tags and attributes on WooCommerce, naming and slugs, empty and thin categories, pagination as part of the structure rather than part of the filter clean-up, and the order of operations for restructuring a catalogue that is already wrong. Verified against Google Search Central, WooCommerce, WordPress.org and schema.org documentation, all listed in the file. Planned here as "category and collection architecture" and renamed, because the file turned out to be about the whole catalogue rather than collections alone.
 - [docs/product-lifecycle-seo.md](docs/product-lifecycle-seo.md) — out of stock, discontinued and seasonal products, as a decision table with the reasoning for each row, plus availability values, what happens to reviews and inbound links, the WooCommerce and WordPress behaviour that trips people up, a decision log and a quarterly pass. It replaces a two-sentence summary in [docs/technical-seo-notes.md](docs/technical-seo-notes.md), which now links to it.
 
-## Next checklist: filter and parameter audit
+## Dropped from the plan: filter and parameter audit checklist
 
-Why. The framework added on 1 August explains how to decide. It does not turn that into a repeatable job, and it should not, because a framework that becomes a procedure stops being readable.
+Planned at the last two reviews and now removed. Checking it against [docs/faceted-navigation-decision-framework.md](docs/faceted-navigation-decision-framework.md) showed that the whole of the intended scope already exists there: the inventory from four sources and the arithmetic in Step 1, the default decisions in Step 3, the implementation order in Step 4, the worked policy table in Step 7, and the week one, week six and day ninety verification in Step 8. Writing it would have restaged an existing file as tick boxes and added a file without adding anything to know. If the framework turns out to be hard to follow on a real store, the answer is to fix the framework, not to duplicate it.
 
-Planned scope: collecting the URL inventory from the four sources; running the multiplication to get the real number; filling in the policy table; implementing in the order that avoids trapping URLs in the index; and the verification steps at week one, week six and day ninety. Roughly ninety minutes on a store of a few hundred products.
+## Next: a worked example of a category page rewrite
 
-## Next guide: mapping queries to pages
+Why. The template says how to write a category page, the architecture guide says which categories should exist, and the intent guide says which query one should own. Nothing in the repository shows that work actually being done. The product copy example is the most useful file here for people who are not sure where to start, which suggests the demonstration is worth more now than another explanation.
 
-Why. The architecture guide decides which pages exist. It does not decide which query each page is meant to answer, and the failure it leaves behind is two of your own pages competing for the same term: a category and its best-selling product, or a category and the guide written about it. That is now the most likely way a well-structured catalogue still underperforms.
+Planned scope: a before and after on one category page, the query it was written to own and why that one, the internal links that were retargeted away from a competing product page, what was deliberately left alone, and what happened afterwards measured the way the measurement file describes. Composite, and labelled as such.
 
-Planned scope: building the map from Search Console queries, internal site search and the category tree; the test for deciding which page should own a query; what to do when the wrong page owns it, which is usually an internal linking and copy problem rather than a redirect; and a quarterly re-check. It depends on the architecture guide, which is why it was not written first.
+## Then: a diagnostic for a product page that is not indexed
+
+Why. It is the most common single question a store owner asks, and the existing material answers it in pieces spread across the technical notes, the filter framework and the product page checklist. Written as an ordered sequence of checks that ends in a decision, not as a list of possible causes.
 
 ## Queued, lower priority
 
-- A troubleshooting guide for a product page that is not indexed, written as a diagnostic sequence rather than a list of possible causes.
-- A worked example of a category page rewrite, to sit alongside the existing product page example. Moved up: with the template and the architecture guide both in place, the example is the missing third piece.
+- A query map template for templates/, if the map described in the intent guide turns out to need a fixed shape rather than a spreadsheet with five columns. Not written yet because a template nobody has used twice is a guess.
+- A note on internal site search as a demand source, if the intent guide proves too brief on it in practice.
 
 ## Deliberately not planned
 
