@@ -46,7 +46,7 @@ So never block a URL in robots.txt and rely on a noindex on that same URL. Pick 
 
 Stores accumulate redirects faster than any other type of site: discontinued products, renamed categories, seasonal collections, platform migrations. Three rules keep it sane. Redirect to the closest equivalent page rather than the home page, because a home page redirect tells both the visitor and the search engine that you have nothing similar. Keep chains to one hop by updating old rules when you add new ones. Keep a record of every redirect with the date and the reason, because in two years nobody remembers.
 
-When a product is genuinely gone with no replacement, a 404 is honest and fine. A product that will return should stay published with clear availability information rather than vanishing and reappearing.
+When a product is genuinely gone with no replacement, a 404 is honest and fine. A product that will return should stay published with clear availability information rather than vanishing and reappearing. Those two sentences are the summary; the full decision for a product that stops selling, including seasonal ranges and what to do with its reviews and inbound links, is in [product-lifecycle-seo.md](product-lifecycle-seo.md).
 
 ## Sitemaps as a diagnostic
 
