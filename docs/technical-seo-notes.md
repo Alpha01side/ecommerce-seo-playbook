@@ -24,7 +24,7 @@ My rule is simple: a URL earns indexation if someone could plausibly search for 
 
 "Blue running shoes" often passes that test. "Blue running shoes, sorted by price, page 3" never does. So:
 
-- Category and subcategory pages: indexable, with unique introductory copy that helps a buyer choose.
+- Category and subcategory pages: indexable, with unique introductory copy that helps a buyer choose. How many of them there should be, how deep they nest and what belongs in a tag or an attribute instead is decided in [category-and-catalogue-architecture.md](category-and-catalogue-architecture.md).
 - Filter combinations with real demand: indexable only if you deliberately build them as landing pages with their own copy and internal links.
 - All other filter, sort and search URLs: kept out of the crawl, and not linked in a way that invites crawling.
 - Pagination: crawlable so products can be discovered, but not something you promote.
