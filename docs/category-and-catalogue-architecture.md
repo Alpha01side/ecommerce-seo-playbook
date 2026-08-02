@@ -20,7 +20,7 @@ Three jobs, and they pull against each other.
 
 Four questions, and a category needs all four. The first three are deliberately the same three the faceted navigation framework asks of a facet, because the underlying question is identical: does this set of products deserve a URL of its own?
 
-**Demand.** Do people search for this grouping as a phrase? Evidence rather than intuition: the Queries report in Search Console, your internal site search log, and what autocomplete offers after the parent term.
+**Demand.** Do people search for this grouping as a phrase? Evidence rather than intuition: the Queries report in Search Console, your internal site search log, and what autocomplete offers after the parent term. [search-intent-and-query-mapping.md](search-intent-and-query-mapping.md) sets out how to read those three sources, and the four gates a demand signal has to pass before it justifies a page of any kind.
 
 **Difference.** Does it hold a materially different set of products from its parent and from its siblings?
 
@@ -181,6 +181,7 @@ Taxonomy behaviour, permalink options and attribute archive settings vary by Woo
 ## Related files
 
 - [faceted-navigation-decision-framework.md](faceted-navigation-decision-framework.md) — the decision that comes immediately after this one, and depends on it.
+- [search-intent-and-query-mapping.md](search-intent-and-query-mapping.md) — the demand evidence behind the four questions above, and which query each surviving category should own.
 - [technical-seo-notes.md](technical-seo-notes.md) — the indexation rule and the audit order this sits inside.
 - [internal-linking-guide.md](internal-linking-guide.md) — how the surviving categories should be linked once they exist.
 - [product-lifecycle-seo.md](product-lifecycle-seo.md) — what happens to products, as opposed to categories, when they stop selling.
