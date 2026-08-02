@@ -33,6 +33,8 @@ Budget ninety minutes a month. Do it on the same day each month so the compariso
 - [ ] List pages with rising impressions but low click-through. These need a better title and meta description, not more content.
 - [ ] List pages that lost position. Check whether a competing page of your own appeared.
 - [ ] Note any query you are getting that you do not have a good page for. That is your content backlog, built from real demand rather than guesswork.
+- [ ] Take that backlog through the four gates in [../docs/search-intent-and-query-mapping.md](../docs/search-intent-and-query-mapping.md) before adding anything to it. Most rows should end as a paragraph on a page that already exists, or as a recorded decision not to build.
+- [ ] Pick one commercial query and check how many of your own URLs receive impressions for it. If more than one does, and the position is stuck, follow the diagnosis in the same guide.
 - [ ] Review your top ten products: is the copy still accurate on price, stock, sizing and shipping?
 - [ ] Check that seasonal categories from last year are either updated or unlinked, not left saying "Christmas 2024".
 
