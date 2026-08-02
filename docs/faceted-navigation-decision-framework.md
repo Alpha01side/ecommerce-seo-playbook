@@ -29,7 +29,7 @@ Run this calculation on your own store before deciding anything. It is the numbe
 
 A facet has to pass all three of these to earn an indexable page of its own.
 
-**Demand.** Does anyone search for this attribute as a phrase, rather than use it as a control? Evidence, not intuition: the Queries report in Search Console, your internal site search log, and what autocomplete offers after the category term. "Oversized band t-shirt" is a phrase people type. "Products between 20 and 30 pounds" is not.
+**Demand.** Does anyone search for this attribute as a phrase, rather than use it as a control? Evidence, not intuition: the Queries report in Search Console, your internal site search log, and what autocomplete offers after the category term. [search-intent-and-query-mapping.md](search-intent-and-query-mapping.md) covers how to read those sources and how to tell a phrase people type from a control they click. "Oversized band t-shirt" is a phrase people type. "Products between 20 and 30 pounds" is not.
 
 **Difference.** Does the filtered view show a materially different set of products, and could you write copy for it that is not a rewording of the parent category? If the honest answer is that it shows the same twelve products in a different order, there is nothing there to index.
 
@@ -147,6 +147,7 @@ Search engine handling of parameters and faceted navigation changes, and so does
 ## Related files
 
 - [category-and-catalogue-architecture.md](category-and-catalogue-architecture.md) for the decision that comes before this one: how many categories should exist, how deep they nest, and what belongs in a tag or an attribute instead.
+- [search-intent-and-query-mapping.md](search-intent-and-query-mapping.md) — the demand half of Step 2, and what to do with a facet that turns out to compete with the category above it.
 - [technical-seo-notes.md](technical-seo-notes.md) for the indexation rule and the audit order this sits inside.
 - [internal-linking-guide.md](internal-linking-guide.md) for how the surviving pages should be linked.
 - [print-on-demand-catalogue-seo.md](print-on-demand-catalogue-seo.md) for the variation and duplication problems specific to print-on-demand catalogues.
