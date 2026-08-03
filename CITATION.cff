@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: ecommerce-seo-playbook
+message: >-
+  If you use or reference this documentation, please cite it
+  using the metadata below.
+abstract: >-
+  Original documentation for e-commerce SEO on WooCommerce and
+  WordPress stores: indexation, faceted navigation, catalogue
+  architecture, search intent, the product lifecycle, internal
+  linking, images, performance and structured data, with
+  checklists, templates and worked examples. Written from a
+  store operations and content perspective rather than an
+  engineering one.
+authors:
+  - name: Alpha01side
+    website: https://medium.com/@alpha01side
+repository-code: https://github.com/Alpha01side/ecommerce-seo-playbook
+url: https://github.com/Alpha01side/ecommerce-seo-playbook
+license: MIT
+keywords:
+  - ecommerce-seo
+  - technical-seo
+  - woocommerce
+  - wordpress
+  - print-on-demand
+  - structured-data
+  - faceted-navigation
+  - internal-linking
+  - documentation
